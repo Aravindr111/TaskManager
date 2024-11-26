@@ -1,0 +1,88 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 15px;
+  width: 60%;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.search-container:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.input-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.input-group input {
+  width: 95%;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: deepskyblue;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+button {
+  padding: 12px 25px;
+  background-color: deepskyblue;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+#searchhead{
+ margin: 30px auto;
+}
+#Homebutton{
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color:  deepskyblue;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+ 
+
+
+}
+#homecontainer{
+  margin: 7em 20px 0 5px; 
+}
+  
